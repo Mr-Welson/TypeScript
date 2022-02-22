@@ -1,3 +1,4 @@
+// typescript 基础类型示例
 // 根据 https://ts.chibicode.com/todo/ 完成的demo
 
 type Place = 'home' | 'work' | { custom: string };
