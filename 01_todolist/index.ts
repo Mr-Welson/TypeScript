@@ -21,7 +21,7 @@ const toggleTodo1 = (todo: TodoItem): TodoItem => {
   todo.done = !todo.done;
   return todo;
 };
-
+// 好的例子: 返回新对象
 const toggleTodo = (todo: Todo): Todo => {
   return {
     ...todo,
